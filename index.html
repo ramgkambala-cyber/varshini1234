@@ -1,0 +1,356 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechElites - Innovative Computer Education</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#f5f3ff;
+      color:#333;
+      line-height:1.6;
+    }
+
+    header{
+      background:linear-gradient(135deg,#8b5cf6,#38bdf8);
+      color:white;
+      padding:70px 20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:55px;
+      margin-bottom:10px;
+      letter-spacing:2px;
+    }
+
+    header p{
+      font-size:22px;
+    }
+
+    nav{
+      background:#6d28d9;
+      padding:15px;
+      text-align:center;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 18px;
+      font-size:18px;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#dbeafe;
+    }
+
+    .hero{
+      padding:70px 20px;
+      text-align:center;
+      background:linear-gradient(to right,#ede9fe,#e0f2fe);
+    }
+
+    .hero h2{
+      font-size:42px;
+      margin-bottom:20px;
+      color:#5b21b6;
+    }
+
+    .hero p{
+      max-width:900px;
+      margin:auto;
+      font-size:19px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:25px;
+      padding:14px 30px;
+      background:#7c3aed;
+      color:white;
+      text-decoration:none;
+      border-radius:10px;
+      transition:0.3s;
+      font-size:18px;
+    }
+
+    .btn:hover{
+      background:#5b21b6;
+    }
+
+    .info-section{
+      padding:60px 20px;
+      background:white;
+      text-align:center;
+    }
+
+    .info-section h2{
+      color:#6d28d9;
+      margin-bottom:20px;
+      font-size:38px;
+    }
+
+    .info-section p{
+      max-width:950px;
+      margin:auto;
+      font-size:18px;
+    }
+
+    .courses{
+      padding:70px 20px;
+      background:#eef2ff;
+    }
+
+    .courses h2{
+      text-align:center;
+      margin-bottom:45px;
+      color:#5b21b6;
+      font-size:40px;
+    }
+
+    .course-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+      gap:25px;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    .course-card{
+      background:linear-gradient(135deg,#c4b5fd,#bae6fd);
+      padding:28px;
+      border-radius:16px;
+      text-align:center;
+      box-shadow:0 5px 12px rgba(0,0,0,0.1);
+      transition:0.4s;
+    }
+
+    .course-card:hover{
+      transform:translateY(-8px) scale(1.03);
+    }
+
+    .course-card h3{
+      color:#4c1d95;
+      margin-bottom:12px;
+      font-size:24px;
+    }
+
+    .features{
+      padding:70px 20px;
+      background:#ffffff;
+    }
+
+    .features h2{
+      text-align:center;
+      color:#5b21b6;
+      margin-bottom:40px;
+      font-size:38px;
+    }
+
+    .feature-list{
+      max-width:1000px;
+      margin:auto;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:25px;
+    }
+
+    .feature-box{
+      background:#e0f2fe;
+      padding:25px;
+      border-radius:14px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .feature-box h3{
+      color:#6d28d9;
+      margin-bottom:10px;
+    }
+
+    .contact{
+      padding:70px 20px;
+      background:linear-gradient(135deg,#7c3aed,#38bdf8);
+      color:white;
+      text-align:center;
+    }
+
+    .contact h2{
+      margin-bottom:20px;
+      font-size:40px;
+    }
+
+    .contact p{
+      font-size:19px;
+      margin:10px 0;
+    }
+
+    footer{
+      background:#4c1d95;
+      color:white;
+      text-align:center;
+      padding:18px;
+      font-size:15px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>TechElites</h1>
+    <p>Innovative Computer Education</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#features">Facilities</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Shape Your Future With Technology</h2>
+    <p>
+      TechElites is a modern computer training institution dedicated to providing quality education 
+      in computer applications, programming, office tools, and digital skills. 
+      We focus on practical learning, real-time examples, and student-friendly teaching methods 
+      to help learners build confidence in technology.
+    </p>
+
+    <a href="#courses" class="btn">View Courses</a>
+  </section>
+
+  <section class="info-section" id="about">
+    <h2>About TechElites</h2>
+
+    <p>
+      TechElites - Innovative Computer Education is one of the growing computer institutes 
+      committed to helping students gain essential computer knowledge for academics, jobs, 
+      and future careers. We provide beginner-friendly as well as advanced computer training 
+      with experienced faculty and practical lab sessions.
+      <br><br>
+      Our institution offers a comfortable learning environment, individual attention for students, 
+      project-based learning, and hands-on practice. Whether you are a school student, college student, 
+      job seeker, or working professional, TechElites provides the right platform to improve your 
+      computer skills and technical knowledge.
+    </p>
+  </section>
+
+  <section class="courses" id="courses">
+    <h2>Courses Offered</h2>
+
+    <div class="course-container">
+
+      <div class="course-card">
+        <h3>HTML Basics</h3>
+        <p>Learn website creation using HTML and build your first web pages.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>Paint</h3>
+        <p>Improve creativity and learn digital drawing basics.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>Windows</h3>
+        <p>Understand operating systems, file handling, and computer basics.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>PowerPoint</h3>
+        <p>Create professional presentations with animations and smart designs.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>MS Office</h3>
+        <p>Master MS Word, Excel, and Office tools for productivity.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>Google Apps</h3>
+        <p>Learn Gmail, Docs, Sheets, Slides, and Google Drive effectively.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>Python</h3>
+        <p>Start coding with Python and build logical programming skills.</p>
+      </div>
+
+      <div class="course-card">
+        <h3>Java</h3>
+        <p>Learn object-oriented programming and software development concepts.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <h2>Why Choose TechElites?</h2>
+
+    <div class="feature-list">
+
+      <div class="feature-box">
+        <h3>Experienced Faculty</h3>
+        <p>Learn from skilled trainers with practical teaching experience.</p>
+      </div>
+
+      <div class="feature-box">
+        <h3>Practical Training</h3>
+        <p>Hands-on computer lab sessions for real learning experience.</p>
+      </div>
+
+      <div class="feature-box">
+        <h3>Affordable Fees</h3>
+        <p>Quality computer education at student-friendly fee structure.</p>
+      </div>
+
+      <div class="feature-box">
+        <h3>Modern Learning</h3>
+        <p>Updated computer courses with latest software and technology.</p>
+      </div>
+
+      <div class="feature-box">
+        <h3>Friendly Environment</h3>
+        <p>Comfortable classrooms and supportive learning atmosphere.</p>
+      </div>
+
+      <div class="feature-box">
+        <h3>Career Support</h3>
+        <p>Guidance for projects, skill development, and future opportunities.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+
+    <p><strong>Institution:</strong> TechElites - Innovative Computer Education</p>
+
+    <p><strong>Location:</strong> Near MRF Showroom, Podalada</p>
+
+    <p><strong>Email:</strong> techelites@gmail.com</p>
+
+    <p><strong>Phone:</strong> +91 98765 43210</p>
+
+    <p><strong>Timings:</strong> Monday - Saturday | 8:00 AM - 7:00 PM</p>
+  </section>
+
+  <footer>
+    <p>© 2026 TechElites - Innovative Computer Education | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html> 
